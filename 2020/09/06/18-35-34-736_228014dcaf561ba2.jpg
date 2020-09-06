@@ -1,0 +1,10 @@
+<br />
+<b>Fatal error</b>:  Uncaught Error: Function name must be a string in /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/Parsedown.php:915
+Stack trace:
+#0 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/Parsedown.php(952): erusev\Parsedown-&gt;element(Array)
+#1 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/Parsedown.php(268): erusev\Parsedown-&gt;elements(Array)
+#2 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/Parsedown.php(50): erusev\Parsedown-&gt;lines(Array)
+#3 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/ParsedownExtra.php(40): erusev\Parsedown-&gt;text('**(404) PC LOAD...')
+#4 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/core/api/parse.php(65): erusev\ParsedownExtra-&gt;text('**(404) PC LOAD...')
+#5 /nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/core/bundles/markdown/mod.markdown.php(13): Parse::markdown('**(404) PC LOAD...')
+#6 /nfs/c09/h03/mn in <b>/nfs/c09/h03/mnt/132486/domains/thegreatdiscontent.com/html/_app/vendor/erusev/Parsedown.php</b> on line <b>915</b><br />
